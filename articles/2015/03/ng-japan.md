@@ -1,0 +1,215 @@
+# Angular 1.4
+
+## Overview
+
+- Chirayuk
+    - Google
+- 2週間で1,600 issues, PR
+- 新機能
+    - New Router
+    - Pluralization and Gender
+    - ng-animate
+    - ng-messages
+    - ng-cookies
+
+## New Router
+
+- ブライアンさんのセッション
+
+## Pluralization and Gender
+
+- Based on ICU MessageFormat
+
+## ng-messages
+
+- multiple includes
+
+## ng-cookies
+
+- Ability to set path and domain
+
+## What's new more
+
+- CHANGELOG
+
+## Better Performance
+
+- ~30% faster digest times
+- Digest time
+    - イベントが起こった時に、そのイベントで何が変わったかを発見する時間
+
+## Everyone should upgrade
+
+- Few breaking changes
+- Same browser support
+
+## 1.5
+
+- Shorter release cycles
+    - Painless upgrade
+
+## Angular 2
+
+- イゴールさんのセッション
+
+## You can help
+
+### Add a Feature
+
+- Contact us
+    - ディスカッションからスタート
+        - どういう実装にするかなど
+    - なるべく多くの人が参加した方がいい
+        - 多くの人が考えぬいて、いいものが出てくる
+        - 多くの人からフィードバックをもらう
+            - どこに変更が必要か
+    - マージもしやすい
+- Minimal set of changes per PR
+    - できる限り小さくする
+    - 後から足すのは簡単
+- Unit tests
+    - 3,000のユニットテストがある
+- Follow conversations
+
+### Work on Issues
+
+- バグやイシュー
+- Write a Plunker or a failing test
+- Broken at master?
+    - 既にmasterで直っているかもしれないので、必ずmasterで壊れるかを確認する
+
+### Help closing issues and PRs
+
+# Onsen UI
+
+## Overview
+
+- 久保田さん
+    - アシアル
+- ハイブリッドアプリとは
+- 開発にどんな問題があるか
+- なぜAngularJS, Onsen UIが必要なのか
+- Onsen UIの紹介
+
+## ハイブリッドアプリとは
+
+- 何がいいのか
+    - クロスプラットフォーム
+    - Web資産が活かせる
+    - ストア配布可
+    - ネイティブAPIをJavaScriptから使える
+        - Cordova
+            - 昔はPhoneGapだった
+    -最も有名な失敗
+        - Facebook
+    - 状況が好転してきた
+        - 端末性能の向上
+- 問題
+    - チューニングが必要
+        - 1 frameが16ms(60fps)以下に抑えられれば最高（ディスプレイのレンダリングが最高60fps程度）
+            - Loading
+            - Scripting
+                - JavaScriptの実行時間
+                    - 計算は速い
+                    - canvasとかは重くなる
+            - Rendering
+                - レイアウト処理
+                - Recalculate Style
+                    - 要素のスタイルの計算
+                    - DOM要素の数 x CSSルールの数分マッチング処理が走る
+                        - 使ってないCSSルールは消す
+                - Layout
+                    - Render Treeの生成
+            - Painting
+                - 描画処理
+                - Paint
+                - Rasterize
+                - Composite Layers
+        - 小話
+            - translate3d(0,0,0)が速いのはなぜか
+                - GPUで描画されるから？
+                    - 半分正解
+                    - 単体で行うと、最後のComposite Layersのみが行われるから
+                        - 他のことを同時にやると意味ない
+            - どのCSSプロパティを変更すると何が起こるか
+                - 要素の大きさが変わる場合
+                    　- Layoutから処理が始まる
+                - 詳しくはCSS Triggersでググる
+                    - http://csstriggers.com
+            - DOMリークを防ぐ
+                - DOM要素が謝って参照されたまま開放されない
+                - モバイルではスワッピングの仕組みが弱くて、思っているより申告
+                    - Viewを破棄し始める
+            - reflowを起こさないようにする
+                - 画像のサイズは必ず指定する
+            - GPUバウンド
+                - CPUよりGPUがボトルネックになってしまう
+        - どうしてもわからない場合はレンダリングエンジンを読むしか無い
+            - ハイブリッドアプリを開発したいだけなのに何かがおかしい
+            - ネイティブの場合はUIフレームワークがある
+            - ハイブリッドアプリではない
+                - Onsen UI
+## Onsen UI
+
+- Adobe製CSSフレームワークを利用
+    - topcoat
+        - http://topcoat.io
+
+# Routing in Angular
+
+## Overview
+
+- briantford
+- Map to Components
+- Deep linking
+- History of Routing in Angular
+    - ngRoute
+    - UI-Router
+        - Flexible router for Angular 1
+    - New Router
+        - Designed with Angular 2 in mind, also works in Angular 1
+        - UI-Routerのコミュニティと協力
+            - Angular 1でもAngular 2でも動く
+
+## Sibling Routes
+
+- Side by Side
+    - URLに基づいて、1画面内に2コンポーネント
+        - /post/user
+            - Postは右側、Userは左側
+        - /user/post
+            - Userは右側、Postは左側
+    - 複数のコンポーネントを名前で指定できる
+
+## Migration
+
+- Part-by-part Migration
+    - Angular 1とAngular 2が並行稼動
+    - 必要な箇所からAngular 2に移行可能
+
+## The future
+
+- New Router 1.0 will be released when Angular 1.4 is released
+
+# Angular 2
+
+## Overview
+
+- igor
+- Why Angular 2
+
+## Why Angular 2
+
+- Angular 1
+    - 自分達の生産性を上げたかった
+    - Google内で2,000アプリがAngular使ってる
+
+## What's Angular 2
+
+- TypeScriptでかく
+- Angular 2 with View Cache
+
+## Sample
+
+- ng2do
+- youtube-app
