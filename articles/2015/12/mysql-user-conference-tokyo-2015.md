@@ -1,0 +1,14 @@
+- select_type
+    - DERIVED
+        - tempテーブル作ってる時
+- filtered
+    - 絞り込まれる見込みの比率
+    - rows * filteredが見積もり行数
+- optimizer_trace
+    - rows
+    - cost
+- オプティマイザヒント
+
+- パーティションテーブル
+    - 日時で分けて、データの一括削除
+- 
