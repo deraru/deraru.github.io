@@ -18,4 +18,5 @@ Facebook のユーザーIDを、そのままRailsアプリのユーザーテー�
     - 他の属性を同時に指定しても1回のDB書き込みで済む
 
 参考URL
-    - [ruby on rails - Best way to find_or_create_by_id but update the attributes if the record is found - Stack Overflow](http://stackoverflow.com/questions/5160073/best-way-to-find-or-create-by-id-but-update-the-attributes-if-the-record-is-found){:target="_blank"}
+
+- [ruby on rails - Best way to find_or_create_by_id but update the attributes if the record is found - Stack Overflow](http://stackoverflow.com/questions/5160073/best-way-to-find-or-create-by-id-but-update-the-attributes-if-the-record-is-found){:target="_blank"}
