@@ -1,3 +1,14 @@
+---
+layout: post
+title:  二回続けてShinjukurbに行ってきた
+date:   2015-07-22 00:00:00 +09:00
+categories:
+    - tech
+tags:
+    - Ruby
+    - 勉強会
+---
+
 # microservice化に向けて
 
 - スペースマーケット

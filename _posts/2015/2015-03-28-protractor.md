@@ -1,3 +1,15 @@
+---
+layout: post
+title:  protractorハンズオン＆ハッカソンに行ってきた
+date:   2015-03-28 00:00:00 +09:00
+categories:
+    - tech
+tags:
+    - AngularJS
+    - Protractor
+    - 勉強会
+---
+
 # protractorハンズオン＆ハッカソン
 
 - 2015/03/28 12:00 - 16:00
