@@ -1,3 +1,13 @@
+---
+layout: post
+title:  Google Container Engineのチュートリアルをやってみた
+date:   2015-01-03 00:00:00 +09:00
+categories:
+    - tech
+tags:
+    - Google Container Engine
+---
+
 # Wordpress
 
 ## Set up

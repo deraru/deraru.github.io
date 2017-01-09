@@ -1,3 +1,14 @@
+---
+layout: post
+title:  Shinjukurbに行ってきた
+date:   2015-06-24 00:00:00 +09:00
+categories:
+    - tech
+tags:
+    - Ruby
+    - 勉強会
+---
+
 # shinjukurb
 
 - 2015/06/24 19:30-21:00

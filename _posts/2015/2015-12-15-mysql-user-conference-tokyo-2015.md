@@ -1,3 +1,16 @@
+---
+layout: post
+title:  MySQL User Conference Tokyo 2015に行ってきた
+date:   2015-12-15 00:00:00 +09:00
+categories:
+    - tech
+tags:
+    - MySQL
+    - 勉強会
+---
+
+# チューニング用メモ
+
 - select_type
     - DERIVED
         - tempテーブル作ってる時
@@ -8,7 +21,5 @@
     - rows
     - cost
 - オプティマイザヒント
-
 - パーティションテーブル
     - 日時で分けて、データの一括削除
-- 

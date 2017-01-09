@@ -1,3 +1,13 @@
+---
+layout: post
+title:  Startup tech nightに行ってきた
+date:   2015-03-06 00:00:00 +09:00
+categories:
+    - notes
+tags:
+    - Startup
+---
+
 # Startup Tech Night
 
 ## 鈴木さん
