@@ -1,0 +1,13 @@
+{
+  "name": "Runolog",
+  "version": "1.0.0",
+  "description": "deraru's blog",
+  "repository": "https://github.com/deraru/deraru.github.io",
+  "author": "Rui Onodera <deraru@gmail.com>",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
+}
