@@ -28,7 +28,13 @@ theme: minima
 gems:
   - jekyll-feed
 exclude:
+  - node_modules
+  - src
+  - vendor
   - CNAME
   - Gemfile
   - Gemfile.lock
-  - vendor
+  - package.json
+  - README.md
+  - webpack.config.js
+  - yarn.lock
