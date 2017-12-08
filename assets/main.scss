@@ -28,6 +28,11 @@ body {
       @include relative-font-size(1.125);
     }
   }
+
+  p {
+    font-size: 1em;
+    line-height: 2em;
+  }
 }
 
 .social-button {
