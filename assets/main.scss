@@ -13,6 +13,7 @@ body {
     @include media-query($on-laptop) {
       @include relative-font-size(1.75);
     }
+    margin-top: 1.5em;
   }
 
   h2 {
@@ -20,6 +21,7 @@ body {
     @include media-query($on-laptop) {
       @include relative-font-size(1.375);
     }
+    margin-top: 1.2em;
   }
 
   h3 {
@@ -27,6 +29,7 @@ body {
     @include media-query($on-laptop) {
       @include relative-font-size(1.125);
     }
+    margin-top: 1.2em;
   }
 
   p {
