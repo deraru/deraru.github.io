@@ -27,7 +27,7 @@ google_analytics: UA-25908311-1
 markdown: kramdown
 theme: minima
 lang: ja
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - node_modules
