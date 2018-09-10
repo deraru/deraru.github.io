@@ -4,6 +4,7 @@
   "description": "deraru's blog",
   "repository": "https://github.com/deraru/deraru.github.io",
   "author": "Rui Onodera <deraru@gmail.com>",
+  "license": "UNLICENSED",
   "scripts": {
     "build": "webpack"
   },
