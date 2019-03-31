@@ -22,6 +22,7 @@ url: "http://blog.deraru.com" # the base hostname & protocol for your site, e.g.
 github_username: deraru
 twitter_username: deraru
 google_analytics: UA-25908311-1
+permalink: /:categories/:title
 
 # Build settings
 markdown: kramdown
